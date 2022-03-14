@@ -1,10 +1,10 @@
-<h1>  POKEDEX APP - gotta catch'em all!  </h1>
+<h1>  POKEDEX - gotta catch'em all!  </h1>
 
 <h3> https://juliaflejterska.github.io/pokedex </h3>
 
 ---
 
-POKEDEX APP is a React application which is an <b> interactive catalogue of pokemon </b> with <b> data fetched from ‘Pokémon API’</b>  (https://pokeapi.com).
+POKEDEX is a React application which is an <b> interactive catalogue of pokemon </b> with <b> data fetched from ‘Pokémon API’</b>  (https://pokeapi.com).
 
 ---
 
