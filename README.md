@@ -12,7 +12,7 @@ POKEDEX is an <b> interactive React catalogue of pokemon </b> with <b> data fetc
 
 ✨ When you hover your mouse over one of the cards, you can see basic information about the selected creature: its name and type. When you click on it, its weight and height also appear.
 
-✨ Moreover, POKEDEX APP allows you to <b> sort the displayed pokemon by their type. </b> You can also <b> search for any pokemon that is available </b> in ‘Pokémon API’ by entering its name in the special field provided for this.
+✨ Moreover, POKEDEX allows you to <b> sort the displayed pokemon by their type. </b> You can also <b> search for any pokemon that is available </b> in ‘Pokémon API’ by entering its name in the special field provided for this.
 
 ✨ By clicking on the moon icon, you can <b> change the mode from light to dark and vice versa. </b>
 
