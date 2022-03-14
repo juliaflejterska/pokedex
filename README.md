@@ -4,7 +4,7 @@
 
 ---
 
-POKEDEX is a React application which is an <b> interactive catalogue of pokemon </b> with <b> data fetched from ‘Pokémon API’</b>  (https://pokeapi.com).
+POKEDEX is an <b> interactive React catalogue of pokemon </b> with <b> data fetched from ‘Pokémon API’</b>  (https://pokeapi.com).
 
 ---
 
