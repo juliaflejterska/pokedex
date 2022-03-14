@@ -74,12 +74,17 @@ const FilterByName = () => {
       <motion.form
         onSubmit={handleSubmit}
         initial={{ scale: 0.5 }}
-        animate={{ scale: 1 }}
+        animate={{ scale: 1.3 }}
         transition={{
-          duration: 0.1,
+          duration: 0.5,
         }}
       >
-        <h1>POKEDEX</h1>
+        <img
+          className="pokedex-logo"
+          src="https://archives.bulbagarden.net/media/upload/4/4b/Pok%C3%A9dex_logo.png"
+          alt="pokedex logo"
+        ></img>
+
         <input
           type="text"
           value={enteredName || ""}
@@ -94,7 +99,6 @@ const FilterByName = () => {
           {Object.keys(filteredPokemon).length !== 0 && (
             <div>
               <Pokemon
-                name={filteredPokemon.name}
                 name={filteredPokemon.name}
                 type={filteredPokemon.type}
                 sprites={filteredPokemon.sprites}

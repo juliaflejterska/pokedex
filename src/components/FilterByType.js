@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import Pokemons from "./Pokemons";
 
 const FilterByType = ({ pokemons, isFilterType, isFilterName }) => {
@@ -24,7 +24,7 @@ const FilterByType = ({ pokemons, isFilterType, isFilterName }) => {
     setTypesArr(...typesArr, pushArr);
   };
 
-  useState(() => {
+  useEffect(() => {
     fetchFilteredPokemon();
   }, []);
 
